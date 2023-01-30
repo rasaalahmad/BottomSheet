@@ -13,4 +13,16 @@
         android:text="@string/bottom_sheet"
         android:layout_gravity="center"/>
 
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bottom_sheet"
+        android:background="@drawable/background_bottom_sheet"
+        app:behavior_peekHeight="80dp"
+        app:behavior_hideable="true"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    </androidx.core.widget.NestedScrollView>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
